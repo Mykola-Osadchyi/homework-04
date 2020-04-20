@@ -144,10 +144,6 @@ body {
   float: left;
 }
 
-.product-name:hover {
-  text-decoration: underline;
-}
-
 .product-price {
   width: 56px;
   text-align: center;
