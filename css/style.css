@@ -45,7 +45,6 @@ body {
 
 .site-menu {
   list-style: none;
-  width: 464px;
   float: right;
   margin-top: 8px;
 }
@@ -121,9 +120,12 @@ body {
   text-decoration: none;
 }
 
+.product-image img {
+  background-color: #ffffff;
+}
+
 .product-description {
-  display: inline-block;
-  width: 255px;
+  display: block;
   background-color: rgb(50, 50, 50);
   vertical-align: bottom;
 }
@@ -242,4 +244,5 @@ body {
   height: 51px;
   border-radius: 3px;
   background-color: rgb(78, 198, 171);
+  cursor: pointer;
 }
